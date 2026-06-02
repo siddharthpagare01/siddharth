@@ -1,190 +1,167 @@
-PG-DITISS 1 PG-DITISS 1 PG-DITISS 1
-ACTS, PUNE Suggested Teaching Guideline for
-Fundamentals of Computer NetworksPG-DITISS August 2024
-Duration: 80 classroom hrs (40hrs theory + 40 lab hrs)
-Objective: To introduce the student to fundamentals of computers and networks
-Evaluation method: Theory exam – 40% weightage
+ACTS, Pune
+PG-DBDA Page 1 of 5
+Suggested Teaching Guidelines for
+Linux Programming and Cloud Computing
+PG-DBDA August 2025
+Duration: 28 Classroom hours + 22 Lab hours
+Objective: To introduce Linux environment and hands on Linux commands. Prerequisites: Knowledge of Computer Fundamentals
+Evaluation method: Theory exam– 40% weightage
 Lab exam – 40% weightage
-Internal Assessment– 20% weightage
+Internal exam– 20% weightage
 List of Books / Other training material
-Courseware: Data Communications and Networking, Behrouz A. Forouzan, 
-McGrawHill Education; Fifth edition
+Reference:
+1. Linux: The Complete Reference – Petersen/ TMH 6
+th Edition
+2. The Linux Programming Interface: Linux and UNIX System Programming Handbook
+3. Pro Bash Programming: Scripting the GNU/Linux Shell, Second Edition
+4. Beginning Unix – Joe Marilino (Wrox Publication)
+5. Linux Command Line and Shell Scripting Bible – Blum (Wiley – India)
+6. Cloud Computing Black Book by Kailash Jayaswal, Dreamtech
+7. Mastering Cloud Computing by Rajkumar/ McGraw Hill Education
+8. Cloud Computing a Practical Approach by Anthony T. Velte/ McGraw Hill Education
+9. Architecting the Cloud: Design Decisions for Cloud Computing Service Models (SaaS, PaaS, and IaaS)
+10. Cloud Computing
+11. An Introduction to Parallel Computing: Design and Analysis of Algorithms (Authors: Vipin
+Kumar, Ananth Grama, Anshul Gupta, George Karypis)
+12. High Performance Cluster Computing: Architectures & Systems (Volume-1) by Rajkumar
+Buyya, Pearson
+13. Parallel Programming in C with MPI and Open MPI, Michael, TMH
+14. High-Performance Computing on Complex Environments
+Note: Each session having 2 Hours & 2 Hours of Lab unless indicated otherwise.  Linux Programming (12T + 12L)
 Session 1 & 2:
- Internetworking
- OSI model
- Ethernet
- Wireless Networking
-Assignment: 
-1) Difference between UTP & STP
-2) Write categories of cables
-3) e in CAT5e
-4) OSI Model
-Session 3:
- Internet Protocol
- TCP/IP model
-Assignment:
-1) IP
-2) TCP/IP Model
-3) Write a difference between TCP & UDP.
-Session 4 & 5:
- IP Subnetting & variable Length Subnet Masking
-Assignment:
-1) Subnetting
-2) Determine the network and host part of 192.168.5.85 /24, 
-10.128.240.50/30 address.
-3) Divide the network as per following requirement 192.168.1.0/24
-a. Subnet 1 =28 hosts
-b. Subnet 2 =52 hosts
-c. Subnet 3 =15 hosts
-d. Subnet4 = 5 hosts
-PG-DITISS 2 PG-DITISS 2 PG-DITISS 2
-ACTS, PUNE Suggested Teaching Guideline for
-Fundamentals of Computer NetworksPG-DITISS August 2024
-Session 6:
- Router IOS & Security Device Manager
-Assignment:
-1) Subnet the Class C IP Address 195.1.1.0 So that you have 10 subnets 
-each with a maximum 12 hosts on each subnet. List the Address on 
-host 1 on subnet 0,1,2,3,10.
-2) Divide the network to find 500 hosts in each subnet.
-152.152.0.0 /16
+Linux History and Operation
+o The Evolution of Linux
+o The GNU Movement and the GPL
+o Linux Operations as a Server
+o The Architecture and Structure of Linux
+ACTS, Pune
+PG-DBDA Page 2 of 5
+Suggested Teaching Guidelines for
+Linux Programming and Cloud Computing
+PG-DBDA August 2025
+Installing and Configuring Linux (Ubuntu and CentOS)
+o Introduction to Installation and Media Types
+o Performing a Custom Linux Server Installation
+o Run Levels and the Startup/Shutdown Sequence
+o Logging In and Out of a Linux System
+Basic Commands
+(ls, cp, mv, sort, grep, cat, head, tail, man, locate, find, diff, file, rm, mkdir, rmdir, cd, pwd, ln and ln -s, gzip and gunzip, zip and unzip, tar and its variants, touch, echo, who, whoami, ps, kill, makefile, etc.)
+Assignment – Lab:
+1. Getting Acquainted with the Linux Environment
+2. Use various commands in the Linux system. 3. As root, create a directory dbda and under it create a directory named test and
+create 100 files under it with names file1, file2, ..., file100 - all this using a single
+command. Session 3:
+Gaining Confidence with Linux
+o Access control list and chmod command, chown and chgrp commands
+o Commands like telnet, ftp, ssh, and sftp
+o Basics of I/O system with mount and unmount. Vi/vim/gedit Editor
+o Features and different modes of vi editor
+o Editing using vi editor
+o Find and replace commands
+o Cut-copy-paste commands
+o The set command
+o Other related commands of vi
+Assignment – Lab:  Create the file /tmp/acl_file. 1. Allow Larry and Curly to rwx the file. 2. Don’t allow Moe to access the file (rwx). 3. All members of the group stooges (except Moe) should be able to access the
+file (rw).
+ACTS, Pune
+PG-DBDA Page 3 of 5
+Suggested Teaching Guidelines for
+Linux Programming and Cloud Computing
+PG-DBDA August 2025
+Session 4, 5, & 6:
+Linux Shell Programming
+o Introduction to Shells
+a.shell
+b.Different types of Linux shells
+c.Bourne Again Shell (BASH)
+d.Shell variables (environment and user-defined)
+e.Shell files (.bashrc, .profile, .bash_profile, .bash_logout)
+f. Positional parameters
+o Get started with simple scripts (User variable, expr, multiple commands)
+o Wildcards (* and ?)
+o Command line arguments
+o Arithmetic in shell scripts
+o read and echo commands in shell scripts
+o The tput command
+o Taking decisions: • if-then-fi • if-then-else-fi • The test command (file tests, string tests)
+• Nested if-else
+• The case control structure
+o The loop control structure
+• The while, until, and for loop structures
+• The break and continue statements
+o Shell metacharacters
+o Command line expansion
+o Directory stacks manipulation
+o Job control, history, and processes
+o Built-ins and functions
+o Shell Files
+Assignment – Lab:
+• Change the shell of user3 to nologin. Now login as user4 and try to switch to user3. Observe the result. • Login as root, create a file filewithacl and apply ACL on it in such a way that only user5
+is able to read and write to it. Note: root will do all its work under the dbda folder.
+ACTS, Pune
+PG-DBDA Page 4 of 5
+Suggested Teaching Guidelines for
+Linux Programming and Cloud Computing
+PG-DBDA August 2025
+ Cloud Computing (16T + 10L)
 Session 7:
- Managing an Internetworking Router
+Git / GitHub
+o Introduction to Version Control Systems
+o Creating GitHub repository
+o Using Git – Introduction to Git commands. Session 8: (2T)
+o Introduction to Cloud
+o paradigms
+o Characteristics and benefits
+o Understanding Cloud Vendors (AWS/Azure/GCP)
+o Definition
+o Characteristics
+o Components
 Lab Assignments:
-Working with Router Booting, configuration registers, Router IOS, Telnet, 
-ResolvingHostname, Debugging.
-Session 8:
- Static Routing
- Dynamic Routing
- Routing Protocols
-Theory Assignment:
- Dynamic Routing
- Static Routing
- Routing Protocols
-Session 9 & 10:
- Implementing of Routing Protocols
+o Study about cloud and other similar configurations. o Explore available solutions. Session 9 & 10: (4T)
+o Introduction to SaaS
+o Pros and Cons of SaaS Model
+o Traditional Packaged Software vs. SaaS
+o SaaS Examples
+o Introduction to IaaS
+o Examples
+o Introduction to Virtualization
+o Types and Uses of Virtualization
+o Virtual Machine Provisioning
+o Virtual Machine Migration Services
+o Private Cloud Computing Deployment
+o Introduction to PaaS
+o Challenges of Cloud Environment
+o Hypervisor
+o Comparisons of Web Services
+o Organizational Scenarios of Clouds
+ACTS, Pune
+PG-DBDA Page 5 of 5
+Suggested Teaching Guidelines for
+Linux Programming and Cloud Computing
+PG-DBDA August 2025
 Lab Assignments:
- Implementation of Static Routing, RIP, IGRP, EIGRP, OSPF
-Session 11:
- Layer 2 switching
-Theory Assignment:
-1) Spanning Tree Protocol (STP)?
-2) Write types of Spanning Tree Protocol (STP).
-3) priority number of Spanning Tree Protocol (STP)
-4) disable Spanning Tree Protocol (STP)
-Lab Assignments:
-1. Configuration of switch, STP
-2. Create the following topology for STP and configure a specific switch as root 
-bridge by changing priority number.
-PG-DITISS 3 PG-DITISS 3 PG-DITISS 3
-ACTS, PUNE Suggested Teaching Guideline for
-Fundamentals of Computer NetworksPG-DITISS August 2024
-Session 12:
- Virtual LANs
-Lab Assignments:
-1. Configure, verify, and troubleshoot VLANs (normal/extended range) 
-spanning multipleswitches, inter-VLAN routing
-2. Create following topology where Switch 1 is Server mode and switch 2,3,4,5 
-are client mode. Use network 192.168.10.0 /24
- Transfer the Vlan info from server to all clients.
- Assign vlan as mention in the topology.
- PC’s in having same vlan should ping each other. 
-3. Create following topology where Switch 1 is Server mode and switch 2,4, are 
-client mode.
-Use network 192.168.1.0 /24
- Transfer the Vlan info from server to all clients.
- Assign vlan as mention in the topology.
- PC’s in having same vlan should ping each other. 
- Configured switch 3 in transfer mode and transfer vlan info to switch 4
-Session 13:
- Infrastructure Security
-Lab Assignments:
- Configure, verify, and troubleshoot port security, describe common 
-access layer threat mitigation, Configure, verify, and troubleshoot IPv4 
-and IPv6 access list fortraffic filtering techniques,
- Verify ACLs using the APIC-EM Path Trace ACL analysis tool
- Configure, verify, and troubleshoot basic device hardening
- Describe device security using AAA with TACACS+ and RADIUS
-Session 14:
- NAT
- IPV6
- WAN Technologies
-Lab Assignments
-NAT configuration, Configuring Routers with IPv6
-Session: 15
-Lab Assignments:
- Configure and verify PPP and MLPPP on WAN interfaces using local
-authentication
- Configure, verify, and troubleshoot PPPoE client-side interfaces using
-localauthentication, Configure, verify, and troubleshoot GRE tunnel
-connectivity.
- Configure and verify single-homed branch connectivity using eBGP IPv4
-(limitedto peering and route advertisement using Network command only)
-PG-DITISS 4 PG-DITISS 4 PG-DITISS 4
-ACTS, PUNE Suggested Teaching Guideline for
-Fundamentals of Computer NetworksPG-DITISS August 2024
-Session 16:
- Introduction to SDN,
- Overview and Architecture of SDN
- Scalability (Data Centers, Service provider networks, ISP Automation)
- Reliability (QoS, and Service Availability)
- Consistency (Configuration management, and Access Control Violations)
- Opportunities and Challenges
-Theory Assignment:
- SDN and Architecture of SDN.
-Session 17:
- Virtual networking
- Use-cases (Network Access Control, Virtual Customer Edge, 
-DatacenterOptimization)
-Theory Assignment:
- Virtual networking
- Use cases of Network Access Control, Virtual Customer Edge, Datacenter
-Optimization
-Session 18:
- Introduction to OpenFlow
- History and evolution
- Control and data plane separation
- OpenDaylight architecture overview
-Lab Assignment:
- Understanding the classroom environment
- Installing OpenDaylight
- Initial Configuration
- Initial Controller Interations
-Session 19:
-Getting Started with Opendaylight
- How to get started
- OpenDaylight clustering
- Model-Driven Service Abstraction Layer
- Internal datastore
- OpenFlow plugin
- OpenVSwitch concepts
- Mininet overview
- L2Switch Application
-PG-DITISS 5 PG-DITISS 5 PG-DITISS 5
-ACTS, PUNE Suggested Teaching Guideline for
-Fundamentals of Computer NetworksPG-DITISS August 2024
-Lab Assignment:
- Configuring an OpenDaylight Cluster
- Initial Command Line Interactions
- Enabling Required Features
- Launching the User Interface
- Creating an Emulated SDN Network
- Running L2Switch
-Session 20:
-Getting more from Opendaylight
- OpenDaylight and AAA
- Introduction to OVSDB Virtualization
- Application Intents and Group Based Policy
- Service Function Chaining
- LISP Flow Mapping
- Virtual Tenant Networks
-Lab Assignment:
- Advanced AAA integrations
- Creating Virtual Networks
- Working with policies and intents
- Initial Service Function Chaining
- OpenDaylight and OpenVSwitch
-
-print ("240840127035")
-
-
+o Provide a solution on cloud as SaaS using available systems. Session 11 & 12:
+o Administering & Monitoring Cloud Services
+o Benefits and limitations
+o Deploy application over cloud. o Comparison among SaaS, PaaS, IaaS
+o Cloud Computing Basics
+o Cloud Products and Solutions
+o Cloud Pricing
+o Compute Products and Services
+Session 13 & 14:
+o Elastic Cloud Compute
+o Dashboard
+o Launching Linux VM
+o Accessing Linux VM
+o Launching & Accessing Windows Server VM
+o Introduction to AWS
+o Introduction to Virtual Private Cloud (VPC) Setup
+o Services provided by AWS: EC2, Lambda, AWS Storage Services S3
+o Introduction to Azure
+• Azure Platform (Azure Portal, Azure CLI, Azure PowerShell)
+• Azure Data Services (Azure SQL Database, Cosmos DB)
+• Azure Storage (Blob Storage, File Storage, Queue Storage)
+• Azure Functions
+Lab:
+o Study about cloud and other similar configurations. o Exposure to big data technologies on cloud. o Create AWS EC2 instance. o Create AWS Lambda. o Create AWS Storage Services S3. o Create AWS VPC. o Deployment of application on AWS using GitHub. o Deployment of application on Azure using GitHub. o Deployment of application on Azure using Azure DevOps. o Deploy AI and analytics workloads on cloud environments with a sample mini
+project.
